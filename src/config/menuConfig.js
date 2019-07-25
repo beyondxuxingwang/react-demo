@@ -1,0 +1,65 @@
+export default [
+    {
+        title:'首页',
+        key:'/admin/home',
+        type:"setting",
+    },
+    {
+        title:'UI',
+        key:'/admin/ui',
+        type:"mail",
+        childern:[
+            {
+                title:'按钮',
+                key:'admin/ui/buttons',
+            }
+        ]
+    },
+    {
+        title:'表单',
+        key:'/admin/ui',
+        type:"mail",
+        childern:[
+            {
+                title:'按钮',
+                key:'admin/ui/buttons',
+            }
+        ]
+    },
+    {
+        title:'表格',
+        key:'/admin/ui',
+        type:"setting",
+        childern:[
+            {
+                title:'按钮',
+                key:'admin/ui/buttons',
+            }
+        ]
+    },
+    {
+        title:'富文本',
+        key:'/admin/ui',
+        type:"mail",
+        childern:[
+            {
+                title:'按钮',
+                key:'admin/ui/buttons',
+            }
+        ]
+    },
+    {
+        title:'城市管理',
+        key:'/admin/ui',
+        type:"setting",
+        childern:[
+            {
+                title:'按钮',
+                key:'admin/ui/buttons',
+            }
+        ]
+    },
+
+
+];
+// export default menuList;
