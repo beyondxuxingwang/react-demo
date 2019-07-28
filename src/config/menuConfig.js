@@ -1,65 +1,24 @@
 export default [
     {
         title:'首页',
-        key:'/admin/home',
-        type:"setting",
+        key:'/home',
+        type:'setting',
     },
     {
         title:'UI',
-        key:'/admin/ui',
+        key:'/ui',
         type:"mail",
         childern:[
             {
-                title:'按钮',
-                key:'admin/ui/buttons',
-            }
-        ]
-    },
-    {
-        title:'表单',
-        key:'/admin/ui',
-        type:"mail",
-        childern:[
+                title: '按钮',
+                key: '/ui/buttons',
+            },
             {
-                title:'按钮',
-                key:'admin/ui/buttons',
-            }
+                title: '弹框',
+                key: '/ui/modals',
+            },
         ]
     },
-    {
-        title:'表格',
-        key:'/admin/ui',
-        type:"setting",
-        childern:[
-            {
-                title:'按钮',
-                key:'admin/ui/buttons',
-            }
-        ]
-    },
-    {
-        title:'富文本',
-        key:'/admin/ui',
-        type:"mail",
-        childern:[
-            {
-                title:'按钮',
-                key:'admin/ui/buttons',
-            }
-        ]
-    },
-    {
-        title:'城市管理',
-        key:'/admin/ui',
-        type:"setting",
-        childern:[
-            {
-                title:'按钮',
-                key:'admin/ui/buttons',
-            }
-        ]
-    },
-
 
 ];
 // export default menuList;

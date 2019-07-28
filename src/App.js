@@ -1,21 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-// import './App.css';
-import './aaa.less'
-import { Button } from 'antd';
+import React, { Component } from 'react';
+import './App.css';
 
-
-function App() {
-  return (
-    <div className="aaa">
-      <header className="App-header">
-        <button className="aaa">按钮</button>
-
-        <Button type="primary">Primary</Button>
-
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        {this.props.children}
+      </div>
+    );
+  }
 }
 
 export default App;
