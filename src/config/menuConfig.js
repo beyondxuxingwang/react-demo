@@ -19,6 +19,17 @@ export default [
             },
         ]
     },
+    {
+        title:'表格',
+        key:'/table',
+        type:'setting',
+        childern:[
+            {
+                title:'表格1',
+                key:'/table/table1',
+            }
+        ]
+    }
 
 ];
 // export default menuList;
