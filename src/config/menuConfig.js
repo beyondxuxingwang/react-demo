@@ -27,7 +27,11 @@ export default [
             {
                 title:'表格1',
                 key:'/table/table1',
-            }
+            },
+            {
+                title:'表格2',
+                key:'/table/table2',
+            },
         ]
     }
 
