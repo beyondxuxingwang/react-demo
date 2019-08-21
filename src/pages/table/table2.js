@@ -10,7 +10,7 @@ export default class Table2 extends React.Component {
     componentWillMount() {
         this.getTableList();
     }
-
+    // 方法
     getTableList = () => {
         let params = {};
         api('/tableList', 'get', params).then((res => {
@@ -74,7 +74,7 @@ export default class Table2 extends React.Component {
                     title="基础表格"
                 >
 
-                    <Table bordered dataSource={this.state.dataSource} columns={columns} />
+                    <Table algin  bordered dataSource={this.state.dataSource} columns={columns} />
 
                 </Card>
             </div>

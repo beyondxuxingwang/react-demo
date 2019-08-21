@@ -33,6 +33,11 @@ export default [
                 key:'/table/table2',
             },
         ]
+    },
+    {
+        title:'城市管理',
+        key:'/city',
+        type:'setting',
     }
 
 ];

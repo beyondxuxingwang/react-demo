@@ -7,6 +7,7 @@ import Home from './pages/Home/index';
 import Buttons from './pages/Ui/button';
 import Table1 from './pages/table/table1';
 import Table2 from './pages/table/table2';
+import City from './pages/city/index';
 
 
 
@@ -30,6 +31,7 @@ export default class IRouter extends React.Component {
                                         <Route path="/ui/buttons" component={Buttons}/>
                                         <Route path="/table/table1" component={Table1}/>
                                         <Route path="/table/table2" component={Table2}/>
+                                        <Route path="/city" component={City}/>
 
                                     </Switch>
                                 </Admin>

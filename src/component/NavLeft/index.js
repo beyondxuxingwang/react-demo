@@ -5,8 +5,6 @@ import { Menu, Icon, Switch, Col } from 'antd';
 import { NavLink } from 'react-router-dom';
 import './index.less'
 import { from } from 'rxjs';
-// import MenuConfig from '../../config/menuConfig';
-
 const { SubMenu } = Menu;
 
 
