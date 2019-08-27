@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 
-axios.defaults.baseURL = ' https://www.easy-mock.com/mock/5d4041f51381a33cdf6c9ca5/xxw' // mock
+// axios.defaults.baseURL = ' https://www.easy-mock.com/mock/5d4041f51381a33cdf6c9ca5/xxw' // mock
+
+axios.defaults.baseURL = 'https://easy-mock.com/mock/5c0893b83b84ee1919884836/mock.api';
 // axios.baseImageUrl = 'http://app-t.healthservice.mobile.taikang.com/clouddevp/storage/file/get?fileId=' //开发
 // axios.sdkAppID = '1400176724'  // 开发
 

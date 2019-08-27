@@ -38,6 +38,11 @@ export default [
         title:'城市管理',
         key:'/city',
         type:'setting',
+    },
+    {
+        title:'订单列表',
+        key:'/order',
+        type:'setting'
     }
 
 ];

@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Table, Button, Radio } from "antd";
 
 
-export default class Buttons extends React.Component {
+export default class Table1 extends React.Component {
 
 
     render() {
